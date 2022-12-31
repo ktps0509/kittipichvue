@@ -1,0 +1,38 @@
+.navMenu {
+    z-index: 1000;
+    // transition: all .3s ease;
+
+    .menu {
+        ul {
+            transition: height .3s ease;
+            overflow: hidden;
+        }
+    }
+
+    // &.collapsed {
+    //     .logout {
+    //         display: none;
+    //     }
+    // }
+//     &.collapse {
+    //     .menu {
+    //         ul {
+    //             height: calc(100vh - 50px);
+    //         }
+    //     }
+    // }
+
+    // .navItem {
+    //     color: var(--greyColor);
+
+    //     .active {
+    //         color: var(--mainColor) !important;
+    //     }
+
+    //     svg {
+    //         margin: 0 1rem;
+    //         width: 27px;
+    //         height: 27px;
+    //     }
+    // }
+}
