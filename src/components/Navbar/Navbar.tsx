@@ -93,14 +93,11 @@ function Navbar({ isMounted }: props): JSX.Element {
 					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://github.com/ktps0509" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faGithub} className="text-2xl mb-4" />
 					</a>
-					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://github.com/ktps0509" target="_blank" rel="noopener noreferrer">
+					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://www.linkedin.com/in/kittipichdev/" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faLinkedinIn} className="text-2xl mb-4" />
 					</a>
-					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://github.com/ktps0509" target="_blank" rel="noopener noreferrer">
+					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://www.instagram.com/ktps__/" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faInstagram} className="text-2xl mb-4" />
-					</a>
-					<a className='transition transform hover:text-cc-orange-400 hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none' href="https://github.com/ktps0509" target="_blank" rel="noopener noreferrer">
-						<FontAwesomeIcon icon={faTwitter} className="text-2xl mb-4" />
 					</a>
 				</div>
 			</div>

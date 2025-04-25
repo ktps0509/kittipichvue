@@ -197,6 +197,43 @@ const Home: NextPage = () => {
 								<h1>03.</h1><h1 className='text-white ml-1'>Some things what I've built.</h1>
 							</div>
 							<div className='grid lg:grid-cols-2 grid-cols-1 gap-3 w-full'>
+								<Link href={'https://smce.doae.go.th/'} passHref>
+									<a href="" target="_blank" rel="noopener noreferrer">
+										<div className='bg-slate-800 w-full p-3 flex gap-x-3 items-start pb-10 rounded-sm transition-all hover:-translate-y-1 hover:bg-orange-400 h-full min-h-[160px] duration-300'>
+											<div>
+												<Image src={'/images/smce-logo.png'} alt="smce" width={80} height={80} objectFit='contain' />
+											</div>
+											<div>
+												<h1 className='text-white text-lg mb-2'>Smce</h1>
+												<p className='text-sm mb-1'>
+													Platform registraion for community enterprise agriculture from Department of Agriculture Extension.
+												</p>
+												<p className='text-xs text-gray-500 font-bold'>
+													NextJS PHP PostgresSQL
+												</p>
+											</div>
+										</div>
+									</a>
+								</Link>
+								<Link href={'https://elearning.git.or.th/'} passHref>
+									<a href="" target="_blank" rel="noopener noreferrer">
+										<div className='bg-slate-800 w-full p-3 flex gap-x-3 items-start pb-10 rounded-sm transition-all hover:-translate-y-1 hover:bg-orange-400 h-full min-h-[160px] duration-300'>
+											<div>
+												<Image src={'/images/git-logo.png'} alt="elearning-git" width={80} height={80} objectFit='contain' />
+											</div>
+											<div>
+												<h1 className='text-white text-lg mb-2'>GIT e-learning</h1>
+												<p className='text-sm mb-1'>
+													Platform e-learning of The Gem and Jewelry Institute of Thailand, Learning about gem and jewelry for anyone interest.
+												</p>
+												<p className='text-xs text-gray-500 font-bold'>
+													NextJS Go PostgresSQL
+												</p>
+											</div>
+										</div>
+									</a>
+								</Link>
+
 								<Link href={'https://app.pichoro.com/'} passHref>
 									<a href="" target="_blank" rel="noopener noreferrer">
 										<div className='bg-slate-800 w-full p-3 flex gap-x-3 items-start pb-10 rounded-sm transition-all hover:-translate-y-1 hover:bg-orange-400 h-full min-h-[160px] duration-300'>
